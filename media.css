@@ -252,6 +252,7 @@
 
     .fwrd-right {
         width: 100%;
+        padding-left: 12px;
     }
 
     .fwrd-left img {
@@ -477,6 +478,40 @@
 
     }
 
+    .sidenav{
+        width: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .work-along{
+        width: 100%;
+        display: flex;
+                
+    }
+
+    .in-touch{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .inquiries{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .round-logos{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
     .first-container {
         width: 100%;
     }
@@ -539,13 +574,14 @@
     }
 
     .capa-container{
-        width: 100%               ;
+        width: 100%;
         margin-top: 25px;
+        padding-left: 15px;
     }
 
 
     .capa-test h2 {
-        font-size: 22px;
+        font-size: 20px;
     }
 
 
@@ -607,6 +643,20 @@
         width: 100%;
     }
 
+    .clients{
+        width: 100%;
+    }
+
+    .clients-left{
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    .clients-right{
+        width: 100%;
+        padding-left: 10%;
+    }
+
     .blue-box {
         width: 50%;
     }
@@ -653,21 +703,37 @@
 
 
     .footer {
+        width: 100%;
         display: flex;
         flex-direction: column;
         align-items: flex-start;
     }
+    .foot-first{
+     width: 100%;
+     padding-left: 30%;
+    }
+
 
     .foot-first a {
         font-size: 16px;
     }
 
     .foot-second {
-        padding-top: 10px;
+        width: 100%;
+     padding-left: 20%;
+        
+    }
+
+    .foot-third{
+        width: 100%;
+       padding-left: 15%;
+ 
     }
 
     .foot-fourth {
-        padding-top: 70px;
+        width: 100%;
+        padding-left: 15%;
+        padding-top: 10px;
         display: flex;
         flex-direction: column;
     }
